@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Final Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Burger Menu Navigation -->
+    <nav class="nav-container">
+        <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+    </nav>
+
+    <!-- Full Screen Menu -->
+    <div class="fullscreen-menu" id="fullscreenMenu">
+        <div class="menu-content">
+            <button class="nav-link" onclick="window.location.href='index.html'">Home</button>
+            <button class="nav-link" onclick="window.location.href='about.html'">About</button>
+            <button class="nav-link" onclick="window.location.href='collection.html'">Collection</button>
+            <button class="nav-link" onclick="window.location.href='contact.html'">Contact</button>
+        </div>
+    </div>
+
+    <div class="background-container">
+        <img src="bg.png" alt="Background" class="bg-img">
+    </div>
+
+    <!-- Contact Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-video">
+            <video autoplay loop muted playsinline>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="page-hero-content">
+            <h1 class="page-title">Get in Touch</h1>
+            <p class="page-subtitle">Let's build the future together</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Connect With Us</h2>
+                <p>Whether you're a creator, collector, or just curious about the future of digital fashion, we'd love to hear from you.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <h3>Email</h3>
+                        <p>hello@finalfashion.io</p>
+                    </div>
+                    <div class="contact-detail-item">
+                        <h3>Socials</h3>
+                        <p>@finalfashion</p>
+                    </div>
+                    <div class="contact-detail-item">
+                        <h3>Discord</h3>
+                        <p>Join our community</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Image Section -->
+    <section class="content-section">
+        <div class="section-container">
+            <div class="section-image">
+                <img src="image5.png" alt="Contact">
+            </div>
+            <div class="section-content">
+                <h2>Join Our Community</h2>
+                <p>Be part of a growing movement of creators, designers, and collectors who are shaping the future of fashion in Web3.</p>
+                <p>Follow us on social media, join our Discord, or subscribe to our newsletter for the latest drops, insights, and exclusive access.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Final Fashion. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Scroll Bar -->
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Final Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Burger Menu Navigation -->
+    <nav class="nav-container">
+        <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+    </nav>
+
+    <!-- Full Screen Menu -->
+    <div class="fullscreen-menu" id="fullscreenMenu">
+        <div class="menu-content">
+            <button class="nav-link" onclick="window.location.href='index.html'">Home</button>
+            <button class="nav-link" onclick="window.location.href='about.html'">About</button>
+            <button class="nav-link" onclick="window.location.href='collection.html'">Collection</button>
+            <button class="nav-link" onclick="window.location.href='contact.html'">Contact</button>
+        </div>
+    </div>
+
+    <div class="background-container">
+        <img src="bg.png" alt="Background" class="bg-img">
+    </div>
+
+    <!-- About Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-video">
+            <video autoplay loop muted playsinline>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="page-hero-content">
+            <h1 class="page-title">About Us</h1>
+            <p class="page-subtitle">Pioneering the future of digital fashion</p>
+        </div>
+    </section>
+
+    <!-- About Content Section -->
+    <section class="content-section">
+        <div class="section-container">
+            <div class="section-image">
+                <img src="image1.png" alt="About Us">
+            </div>
+            <div class="section-content">
+                <h2>Our Vision</h2>
+                <p>Final Fashion is redefining the intersection of style, technology, and digital culture. We believe the future of fashion lives in Web3—where creativity knows no bounds and every piece tells a story.</p>
+                <p>Founded by innovators and creators, we're building a platform that empowers designers to push boundaries and collectors to own truly unique digital experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="content-section">
+        <div class="section-container" style="grid-template-columns: 60% 40%;">
+            <div class="section-content" style="padding: 80px 100px 80px 0;">
+                <h2>Our Mission</h2>
+                <p>To bridge the gap between traditional fashion and the digital frontier. We're creating a space where bold design meets cutting-edge technology, where every creation is an experience, and every collector becomes part of our story.</p>
+                <p>Through Web3 technology, we're establishing new standards for digital ownership, authenticity, and creative expression in the fashion world.</p>
+            </div>
+            <div class="section-image">
+                <img src="image2.png" alt="Our Mission">
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="categories-section" style="min-height: 80vh; padding: 80px 0;">
+        <div class="text-stripe">
+            <div class="stripe-track">
+                <h1>INNOVATION • AUTHENTICITY • COMMUNITY • INNOVATION • AUTHENTICITY • COMMUNITY • INNOVATION • AUTHENTICITY • COMMUNITY •</h1>
+            </div>
+        </div>
+
+        <div class="categories-list">
+            <div class="category-item" data-image="image3.png">Innovation</div>
+            <div class="category-item" data-image="image4.png">Authenticity</div>
+            <div class="category-item" data-image="image5.png">Community</div>
+            <div class="category-item" data-image="image1.png">Creativity</div>
+        </div>
+
+        <div class="hover-image" id="hoverImage">
+            <img src="image3.png" alt="Value Preview">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Final Fashion. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Scroll Bar -->
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection - Final Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Burger Menu Navigation -->
+    <nav class="nav-container">
+        <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+    </nav>
+
+    <!-- Full Screen Menu -->
+    <div class="fullscreen-menu" id="fullscreenMenu">
+        <div class="menu-content">
+            <button class="nav-link" onclick="window.location.href='index.html'">Home</button>
+            <button class="nav-link" onclick="window.location.href='about.html'">About</button>
+            <button class="nav-link" onclick="window.location.href='collection.html'">Collection</button>
+            <button class="nav-link" onclick="window.location.href='contact.html'">Contact</button>
+        </div>
+    </div>
+
+    <div class="background-container">
+        <img src="bg.png" alt="Background" class="bg-img">
+    </div>
+
+    <!-- Collection Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1 class="page-title">Our Collection</h1>
+            <p class="page-subtitle">Bold designs for the digital age</p>
+        </div>
+    </section>
+
+    <!-- Collection Grid -->
+    <section class="collection-grid-section">
+        <div class="collection-grid">
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image8.png" alt="Collection 1">
+                </div>
+                <div class="collection-info">
+                    <h3>Genesis Series</h3>
+                    <p>Limited Edition</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image9.png" alt="Collection 2">
+                </div>
+                <div class="collection-info">
+                    <h3>Digital Rebels</h3>
+                    <p>Exclusive Drop</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image10.png" alt="Collection 3">
+                </div>
+                <div class="collection-info">
+                    <h3>Future Icons</h3>
+                    <p>Coming Soon</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image11.png" alt="Collection 4">
+                </div>
+                <div class="collection-info">
+                    <h3>Urban Legends</h3>
+                    <p>Available Now</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image6.png" alt="Collection 5">
+                </div>
+                <div class="collection-info">
+                    <h3>Meta Vision</h3>
+                    <p>Limited Edition</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <div class="collection-image">
+                    <img src="image1.png" alt="Collection 6">
+                </div>
+                <div class="collection-info">
+                    <h3>Cyber Essence</h3>
+                    <p>Sold Out</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Video -->
+    <section class="full-width-video-section">
+        <video autoplay loop muted playsinline>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Collection Statement -->
+    <section class="content-section">
+        <div class="section-container">
+            <div class="section-image">
+                <img src="image2.png" alt="Collection Statement">
+            </div>
+            <div class="section-content">
+                <h2>Where Art Meets Technology</h2>
+                <p>Each piece in our collection is carefully crafted to push the boundaries of digital fashion. From concept to creation, we collaborate with visionary artists and designers who share our passion for innovation.</p>
+                <p>Own a piece of the future. Join our community of collectors who are reshaping what fashion means in the Web3 era.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Final Fashion. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Progress Scroll Bar -->
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
